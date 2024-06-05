@@ -1,0 +1,103 @@
+.tit {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 27%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 15%);
+}
+
+main {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.car {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .car {
+    height: 300px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .car {
+    height: 300px;
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (min-width: 1420px) {
+  .navbar {
+    background-color: hsl(0, 0%, 29%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cen {
+    margin-top: 20%;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .navbar li {
+    flex: mone;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 40px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    transition: opacity 0.15s;
+  }
+
+  .navbar a:hover {
+    opacity: 0.4;
+    background-color: hsl(0, 0%, 0%);
+  }
+}

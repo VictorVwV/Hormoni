@@ -1,0 +1,145 @@
+.tit {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 12%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.titt {
+  font-size: 18px;
+}
+
+.big-box {
+  display: gid;
+  grid-template-columns: 200px fr;
+  margin-bottom: 800px;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.cen {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 10%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.line {
+  margin-left: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 19%);
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  transition: background-color 0.15s;
+  transition: opacity 0.13s;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 0%);
+  opacity: 0.5;
+}
+
+main {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.car {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .car {
+    height: 300px;
+    margin-left: 0;
+  }
+
+  .poz {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .titt {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1420px) {
+  .navbar {
+    background-color: hsl(0, 0%, 29%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+  .titt {
+    font-size: 40px;
+  }
+
+  .cen {
+    margin-top: 20%;
+  }
+
+  .poz {
+    height: 500px;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .navbar li {
+    flex: mone;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 40px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    transition: opacity 0.15s;
+  }
+
+  .navbar a:hover {
+    opacity: 0.4;
+    background-color: hsl(0, 0%, 0%);
+  }
+}
