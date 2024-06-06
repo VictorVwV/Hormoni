@@ -36,6 +36,10 @@
   margin-left: 20px;
 }
 
+.navbar {
+  width: 110%;
+}
+
 .navbar ul {
   list-style-type: none;
   background-color: hsl(0, 0%, 19%);
